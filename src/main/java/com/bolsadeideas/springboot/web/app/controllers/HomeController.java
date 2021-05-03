@@ -49,7 +49,7 @@ public class HomeController {
 		List<Usuario> usuarios= new ArrayList<>();
 		usuarios.add(new Usuario("Andres","Guzman","guzman@correo.com"));
 		usuarios.add(new Usuario("Juan","Perez","jperez@correo.com"));
-		
+		usuarios.add(new Usuario("Julio","Perez","jperez@correo.com"));
 		return usuarios;
 	}
 	
